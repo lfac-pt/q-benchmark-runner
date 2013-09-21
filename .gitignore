@@ -11,4 +11,6 @@ pids
 logs
 results
 
+q
+
 npm-debug.log
