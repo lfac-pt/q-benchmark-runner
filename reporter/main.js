@@ -72,7 +72,7 @@
                 tests = Object.keys(dataByTest);
 
                 html = tests.map(function (testName, index) {
-                    return "<h2>" + testName + '</h2> <div class="container-for-' + index +'"></div>';
+                    return "<h2>" + testName + ' (Op/s)</h2> <div class="container-for-' + index +'"></div>';
                 }).join("");
 
                 document.body.innerHTML += html;

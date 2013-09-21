@@ -1,4 +1,21 @@
+body {
+    font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif;
+    font-size: 12px;
+}
+
+h2 {
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+}
+
 .chart rect {
     stroke: white;
     fill: steelblue;
+}
+
+.value-label{
+    fill: white;
+}
+
+a {
+    text-decoration: underline;
 }
